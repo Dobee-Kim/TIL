@@ -28,7 +28,7 @@
     - commit 이력이 없다면 push할 수 없다
 
 - pull & clone
-    - clone을 하면 init 필요 없음 (clone은 main 브랜치만 복사됨)
+    - clone을 하면 init 필요 없음 (clone은 main 브랜치만 복사됨) `git clone 원격주소`
         - `git pull origin master` remote history와 맞추기 위해 
         - `git add` 변경 사항을 커밋이력으로 남기기
         - `git commit -m '메시지'` 커밋하기
